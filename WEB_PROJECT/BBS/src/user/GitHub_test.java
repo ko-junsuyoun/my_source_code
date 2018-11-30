@@ -16,7 +16,9 @@ public class junsu_add_userDAO {
 	public junsu_add_userDAO() {
 		try {
 			//String dbURL = "jdbc:cubrid:192.168.0.1:33000:junsuyoun:::";
-			String dbURL = "jdbc:cubrid:192.168.103.48:33000:junsuyoun:::";
+			//String dbURL = "jdbc:cubrid:192.168.103.48:33000:junsuyoun:::";
+			
+			String dbURL = "jdbc:cubrid:192.168.103.233:33000:jusnuyoun";
 			String dbID = "dba";
 			String dbPassword = "cubrid";
 			Class.forName("cubrid.jdbc.driver.CUBRIDDriver");
