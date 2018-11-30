@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSP TEST BBS </title>
+</head>
+<body>
+	<div class="model left">
+		<a href="compatibility.jsp">
+			<img class="logo logo-dark" src="C:\Users\junsuyoun\OneDrive\[공부&업무]\[E] JAVA\projects\cubrid_compatibility_logo.jpg" alt="">
+			
+		</a>
+	</div>
+	
+	<div class="background-image-holder fadeIn" style="background: url(&quot;C:\Users\junsuyoun\OneDrive\[공부&업무]\[E] JAVA\projects\cubrid_body_img.jpg&qout;);">
+		<img alt="image" class="background-image" src="C:\Users\junsuyoun\OneDrive\[공부&업무]\[E] JAVA\projects\cubrid_body_img.jpg" draggable="false" style="display: none;">            </div>
+	</div>	
+			
+		<li class="overlay image-bg pt180 pb180 pt-xs-120 pb-xs-120" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; transition: opacity 0.6s ease; z-index: 1;">
+            <div class="background-image-holder fadeIn" style="background: url(&quot;http://www.cubrid.com/files/attach/images/3771164/051fcd4ae262fd3ee70fed5215739ea1.jpg&quot;);">
+                <img alt="image" class="background-image" src="http://www.cubrid.com/files/attach/images/3771164/051fcd4ae262fd3ee70fed5215739ea1.jpg" draggable="false" style="display: none;">            </div>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h2 class="mb40 uppercase" style="text-transform: none;">KHAN [apm] for CUBRID<br></h2><h3>Developed by 오픈나루</h3>
+                        <a class="btn btn-lg btn-rounded" href="http://www.cubrid.com/khan_for_cubrid">자세히 보기</a>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </li>
+	
+</body>
+</html>

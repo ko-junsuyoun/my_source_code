@@ -1,0 +1,29 @@
+package user;
+
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import com.sun.corba.se.pept.transport.Connection;
+
+public class UserDAO {
+
+		private Connection conn;
+		private PreparedStatement pstmt;
+		private ResultSet rs;
+		
+		public UserDAO() {
+			try {
+				//String dbURL = "jdbc:cubrid:192.168.0.1:33000:junsuyoun:::";
+				String dbURL = "jdbc:cubrid:192.168.0.1:33000:junsuyoun:";
+				String dbID = "dba";
+				String dbPassword = "cubrid";
+				Class.forName("cubrid.jdbc.driver.CUBRIDDriver");
+				
+				conn = DriverManager.getConnection(dbURL,dbID,dbPassword)
+						
+			}catch(Exception e) {
+				e.printStackTrace();
+			}
+		}
+}

@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSP TEST BBS </title>
+</head>
+<body>
+	<div class="model left>
+	<a href="compatibility.jsp">
+		<img class="logo logo-dark" src="C:\Users\junsuyoun\OneDrive\[공부&업무]\[E] JAVA\projects\cubrid_logo.JPG" alt="">
+	</a>
+	</div>
+			<td> <img src="C:\Users\junsuyoun\OneDrive\[공부&업무]\[E] JAVA\projects\junsuyoun.JPG">
+		
+		
+	
+</body>
+</html>
